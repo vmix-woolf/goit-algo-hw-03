@@ -14,8 +14,8 @@ def main():
             dist_dir = Path(sys.argv[2])
 
         src_dir = Path(sys.argv[1])
-
         traverse_directory(src_dir, dist_dir)
+
     except ValueError as e:
         print(f"Error: {e}")
 
